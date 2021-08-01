@@ -21,7 +21,7 @@ export class RobloxXMLParser {
         this.dataModel.children.forEach(element => {
             base.roblox.Item.push(convertInstance(element))
         });
-        return builder.buildObject(base).replace('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n',"")
+        return builder.buildObject(base).replaceAll("&#xD;","").replace('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n',"")
     }
 
     constructor() {

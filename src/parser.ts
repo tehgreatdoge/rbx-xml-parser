@@ -19,12 +19,13 @@ export function convertProperties(properties: Properties) : PropertiesXML {
         let property: any = {"$": {name: name}}
         if (typeof value == "object") {
             property=Object.assign({},property,value) // merge
-        } else {
+            grouped[type].push(property)
+        } else if (value) {
             // set value on xml
             property._=value.toString()
+            grouped[type].push(property)
         }
-
-        grouped[type].push(property)
+        
 
     }
     return grouped
