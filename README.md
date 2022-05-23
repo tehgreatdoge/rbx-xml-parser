@@ -1,4 +1,5 @@
-# roblox-xml-parser
+# rblx-xml-parser
+*forked from the former npm module roblox-xml-parser*
 
 A .rbxlx/.rbxmx file parser written in TypeScript. You also able to create roblox model/place files from scratch using this library.
 
