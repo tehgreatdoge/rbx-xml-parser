@@ -1,5 +1,5 @@
 {
-  "name": "roblox-xml-parser",
+  "name": "rbx-xml-parser",
   "version": "1.0.1",
   "description": "Roblox rbxlx/rbxmx parser written in TypeScript.",
   "main": "dist/index.js",
@@ -10,14 +10,14 @@
   "files": [
     "/dist"
   ],
-  "author": "1enrique3 <enriquerblx@gmail.com> (https://github.com/1enrique3)",
+  "author": "tehgreatdoge",
   "license": "MIT",
   "dependencies": {
     "xml2js": "^0.4.23"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/1enrique3/roblox-xml-parser.git"
+    "url": "https://github.com/tehgreatdoge/rbx-xml-parser.git"
   },
   "devDependencies": {
     "typescript": "^4.3.5",
